@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #1e88e5;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body button{
+    border: none;
+    background-color: #1e88e5;
+    color: white;
+    margin: 2% 0 2% 0;
+    margin-right: -16%;
+    padding: 0.30%;
+}
+body button:hover{
+    background-color: #65a8e2;
+}
+.navbar{
+    background-color: darkblue;
+    display: flex;
+    color: white;
+    margin: -12px -12px 0 -12px;
+    justify-content: center;
+    align-items: center;
+}
+.navlist{
+    list-style: none;
+    font-size: small;
+    display: flex;
+    margin-left: -20%;
+    text-align: left;
+    margin-top: 1%;
+
+}
+.navlist li{
+    padding-right: 15px;
+    padding-top: 2%;
+    
+}
+.navbar img{
+    width: 8%;
+    height: 8%;
+    margin-top: 1.5%;
+    margin-left: 3%;
+
+}
+.navbar button{
+    border: none;
+    background-color: #1e88e5;
+    color: white;
+    margin: 2% 0 2% 0;
+    margin-right: -8%;
+    padding: 0.30%;
+}
+.navbar button:hover{
+    background-color: #65a8e2;
+}
+.navbar h4{
+    margin-top: 2%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color: #1e88e5;
+}
+#head{
+    margin: 4% 10%;
+    color: white;
+}
+.btn button{
+    border-color: white;
+    border: solid;border-width: 2px;
+}
+.about h2{
+    color: white;
+    text-decoration: solid underline;
+    padding: 0.40%;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: -2%;
+}
+.about p{
+    color: white;
+    width: 60%;
+    margin-top: 1%;
+}
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: white;
+}
+.services img{
+    height: 80%;
+    width: 80%;
+    border-radius: 12px 0 12px 0;
+    border: solid 3px;
+}
+.Why{
+    margin-left: 60%;
+    color: white;
+    margin-top: -20%;
+    justify-content: right;
+    border: solid 2px white;
+    width: 25%;
+    padding: 20px;
+    border-style: dotted;
+    border-radius: 3%;
+}
+ul li{
+    padding-top: 12px;
+}
+#doctors{
+    margin-left: 10%;
+    color: white;
+    margin-top: 8%;
+}
+.doctors p{
+    width: 40%;
+}
+.img{
+    margin-left: 50%;
+    margin-top: -5%;
+}
+#Appointment{
+    margin-left: 10%;
+    color: white;
+    margin-top: 5%;
+}
